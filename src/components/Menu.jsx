@@ -36,10 +36,10 @@ const Menu = () => {
             }
         })
 
-        parallaxTimeline.from('#m-right-leaf',{
+        parallaxTimeline.from('#m-left-leaf',{
             x:-100,y:100
         })
-        .from('#m-left-leaf',{
+        .from('#m-right-leaf',{
             x:100,y:100
         })
     },[])
